@@ -1,7 +1,7 @@
 const url = require('url')
 const cheerio = require('cheerio')
 
-module.exports = async (html, options) => {
+module.exports = (html, options) => {
 	const tags = {
 		amp: ['img', 'video']
 	}
