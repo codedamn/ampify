@@ -142,10 +142,10 @@ module.exports = (html, options) => {
 		$(elemt).attr({ layout: 'responsive' })
 
 		// // 16:9 images
-		// $(element).attr({
-		// 	width: 16,
-		// 	height: 9
-		// })
+		$(element).attr({
+			width: 1,
+			height: 'auto'
+		})
 	})
 
 	// /* inline styles */
