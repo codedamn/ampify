@@ -139,6 +139,8 @@ module.exports = (html, options) => {
 			return $(element).remove()
 		}
 
+		$(elemt).attr({ layout: 'responsive' })
+
 		// // 16:9 images
 		// $(element).attr({
 		// 	width: 16,
