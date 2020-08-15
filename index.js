@@ -144,7 +144,7 @@ module.exports = (html, options) => {
 		// // 16:9 images
 		$(element).attr({
 			width: 1,
-			height: 'auto'
+			height: 1
 		})
 	})
 
