@@ -9,11 +9,11 @@ module.exports = (html, options) => {
 	let youtube = false
 
 	const cheerioOptions = options || {
-		cwd: options.cwd || '',
-		round: options.round || true,
-		normalizeWhitespace: options.normalizeWhitespace || false,
-		xmlMode: options.xmlMode || false,
-		decodeEntities: options.decodeEntities || false
+		cwd: (options && options.cwd) || '',
+		round: (options && options.round) || true,
+		normalizeWhitespace: (options && options.normalizeWhitespace) || false,
+		xmlMode: (options && options.xmlMode) || false,
+		decodeEntities: (options && options.decodeEntities) || false
 	}
 
 	const $ = cheerio.load(html, cheerioOptions)
