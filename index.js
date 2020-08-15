@@ -139,11 +139,11 @@ module.exports = (html, options) => {
 			return $(element).remove()
 		}
 
-		// 16:9 images
-		$(element).attr({
-			width: 16,
-			height: 9
-		})
+		// // 16:9 images
+		// $(element).attr({
+		// 	width: 16,
+		// 	height: 9
+		// })
 	})
 
 	// /* inline styles */
